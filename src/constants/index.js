@@ -213,7 +213,7 @@ import {
         },
       ],
       image: portfolio,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/Thimanrgy/Portfolio",
     },
     {
       name: "ToDo List",
@@ -255,7 +255,7 @@ import {
         },
       ],
       image: ouidou_webpage,
-      source_code_link: "https://github.com/Thimanrgy/",
+      source_code_link: "https://ouidou.fr/",
     },
   ];
 
