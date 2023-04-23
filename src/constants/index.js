@@ -47,7 +47,7 @@ import {
       icon: web,
     },
     {
-      title: "React.js beginner developer",
+      title: "React.js Beginner Developer",
       icon: mobile,
     },
     {
