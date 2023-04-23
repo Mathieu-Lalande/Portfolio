@@ -118,7 +118,7 @@ import {
   const experiences = [
     {
       title: "School Trainee",
-      company_name: "Giros & Coutellier",
+      company_name: "Giros & Coutellier, Paris, France",
       icon: giroscoutellier,
       iconBg: "#383E56",
       date: "March 2018",
