@@ -130,7 +130,7 @@ import {
     },
     {
       title: "Civic Service",
-      company_name: "Bourges Handball 18, Bourges, Fance",
+      company_name: "Bourges Handball 18, Bourges, France",
       icon: bhb18,
       iconBg: "#E6DEDD",
       date: "Sept 2021 - June 2022",
