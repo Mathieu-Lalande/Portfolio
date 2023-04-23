@@ -47,7 +47,7 @@ const Contact = () => {
       .then(
         () => {
           setLoading(false);
-          alert("Merci. Je reviendrais vers vous dès que possible.");
+          alert("Thanks. I will get back to you as soon as possible.");
 
           setForm({
             name: "",
@@ -59,7 +59,7 @@ const Contact = () => {
           setLoading(false);
           console.error(error);
 
-          alert("Ahh, quelque chose n'a pas marché. Veuillez réessayer.");
+          alert("Ahh, something went wrong. Please try again.");
         }
       );
   };

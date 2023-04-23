@@ -149,7 +149,7 @@ import {
       date: "June 2022 - Oct 2022",
       points: [
         "Redesign of the Ouidou website with Wordpress and custom code.",
-        "Collaboration for the responsive version of the game YesOuiJump en React.js.",
+        "Collaboration for the responsive version of the game YesOuiJump with React.js.",
         "Help on the digital version of their monthly internal newsletter.",
       ],
     },
@@ -204,7 +204,7 @@ import {
           color: "blue-text-gradient",
         },
         {
-          name: "Three.js",
+          name: "three.js",
           color: "green-text-gradient",
         },
         {
@@ -242,11 +242,11 @@ import {
         "Redesign of the Ouidou website, an information technology consulting company (ESN in French) based in Paris with 5 agencies in France.",
       tags: [
         {
-          name: "Wordpress",
+          name: "wordpress",
           color: "blue-text-gradient",
         },
         {
-          name: "MySQL",
+          name: "mySQL",
           color: "green-text-gradient",
         },
         {
