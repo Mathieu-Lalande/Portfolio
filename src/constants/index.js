@@ -158,7 +158,7 @@ import {
       company_name: "Refactor, Bengaluru, India",
       icon: refactor,
       iconBg: "#E6DEDD",
-      date: "April 2023 - Mi-April 2023",
+      date: "April 2023",
       points: [
         "Creation of a ToDoList web application in React.js for training.",
         "Complete handling of Git, with repository put on github and uploading of the ToDoList web application.",
