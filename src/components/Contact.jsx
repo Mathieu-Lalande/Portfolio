@@ -31,6 +31,16 @@ const Contact = () => {
     e.preventDefault();
     setLoading(true);
 
+    // Send email
+    // https://www.emailjs.com/docs/tutorial/creating-contact-form/
+    // create your emailjs account and log in
+    // create a gmail service
+    // create a template and save it
+
+    // copy the service id and template id there
+    // copy the user id from the emailjs dashboard
+    // paste them in the send method below
+
     emailjs
       .send(
         'service_6k2jjjm',
