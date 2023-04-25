@@ -16,6 +16,7 @@ const Contact = () => {
   });
 
   const [loading, setLoading] = useState(false);
+  const [formError, setFormError] = useState(null);
 
   const handleChange = (e) => {
     const { target } = e;
@@ -29,6 +30,14 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+
+    // Vérification des champs
+    if (!form.name || !form.email || !form.message) {
+      setFormError("Please complete all fields.");
+      alert("Please complete all fields.");
+      return;
+    }
+
     setLoading(true);
 
     // Send email
@@ -64,6 +73,7 @@ const Contact = () => {
             email: "",
             message: "",
           });
+          setFormError(null);
         },
         (error) => {
           setLoading(false);

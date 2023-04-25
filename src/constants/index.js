@@ -39,7 +39,13 @@ import {
       id: "contact",
       title: "Contact",
     },
+    {
+      id: "resume",
+      title: "Resume",
+      url: "/src/assets/cv/LALANDE_Mathieu_CV.pdf", // mettez l'URL de votre fichier PDF ici
+    },
   ];
+  
   
   const services = [
     {
