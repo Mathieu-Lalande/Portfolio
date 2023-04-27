@@ -29,6 +29,7 @@ import giroscoutellier from "./company/giroscoutellier.png";
 import todolist from "./todolist.png";
 import ouidou_webpage from "./ouidou_webpage.png";
 import portfolio from "./portfolio.png";
+import customtshirt from "./customtshirt.png";
 
 
 export {
@@ -60,4 +61,5 @@ export {
   todolist,
   ouidou_webpage,
   portfolio,
+  customtshirt,
 };

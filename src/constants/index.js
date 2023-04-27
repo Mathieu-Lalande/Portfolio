@@ -22,6 +22,7 @@ import {
     todolist,
     ouidou_webpage,
     portfolio,
+    customtshirt,
     threejs,
     github,
   } from "../assets";
@@ -262,6 +263,27 @@ import {
       ],
       image: ouidou_webpage,
       source_code_link: "https://ouidou.fr/",
+    },
+    {
+      name: "3D T-shirt Customization",
+      description:
+        "Create your unique and exclusive T-shirt with our brand new 3D customization tool. Unleash your imagination and define your own style 👋!",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "three.js",
+          color: "green-text-gradient",
+        },
+        {
+          name: "tailwind",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: customtshirt,
+      source_code_link: "https://github.com/Thimanrgy/CustomT-shirt",
     },
   ];
 
