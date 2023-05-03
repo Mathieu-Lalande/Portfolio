@@ -26,6 +26,8 @@ import refactor from "./company/refactor.png";
 import bhb18 from "./company/bhb18.png";
 import giroscoutellier from "./company/giroscoutellier.png";
 
+import LALANDE_Mathieu_CV from "./cv/LALANDE_Mathieu_CV.pdf";
+
 import todolist from "./todolist.png";
 import ouidou_webpage from "./ouidou_webpage.png";
 import portfolio from "./portfolio.png";
@@ -58,6 +60,7 @@ export {
   refactor,
   bhb18,
   giroscoutellier,
+  LALANDE_Mathieu_CV,
   todolist,
   ouidou_webpage,
   portfolio,

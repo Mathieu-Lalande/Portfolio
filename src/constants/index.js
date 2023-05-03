@@ -19,6 +19,7 @@ import {
     refactor,
     bhb18,
     giroscoutellier,
+    LALANDE_Mathieu_CV,
     todolist,
     ouidou_webpage,
     portfolio,

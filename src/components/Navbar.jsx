@@ -61,7 +61,7 @@ const Navbar = () => {
               {nav.url ? (
                 <a href={`#${nav.id}`}>{nav.title}</a>
               ) : (
-                <a href='/src/assets/cv/LALANDE_Mathieu_CV.pdf' target="_blank" rel="noopener noreferrer">
+                <a href='https://mathieulalande.netlify.app/src/assets/cv/LALANDE_Mathieu_CV.pdf' target="_blank" rel="noopener noreferrer">
                   {nav.title}
                 </a>
               )}
@@ -97,7 +97,7 @@ const Navbar = () => {
                   {nav.url ? (
                     <a href={`#${nav.id}`}>{nav.title}</a>
                   ) : (
-                    <a href='/src/assets/cv/LALANDE_Mathieu_CV.pdf' target="_blank" rel="noopener noreferrer">
+                    <a href='https://mathieulalande.netlify.app/src/assets/cv/LALANDE_Mathieu_CV.pdf' target="_blank" rel="noopener noreferrer">
                       {nav.title}
                     </a>
                   )}
