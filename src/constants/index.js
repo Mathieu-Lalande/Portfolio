@@ -31,19 +31,22 @@ import {
     {
       id: "about",
       title: "About",
+      url: "/#about",
     },
     {
       id: "work",
       title: "Work",
+      url: "/#work",
     },
     {
       id: "contact",
       title: "Contact",
+      url: "/#contact",
     },
     {
       id: "resume",
       title: "Resume",
-      url: "/src/assets/cv/LALANDE_Mathieu_CV.pdf", // mettez l'URL de votre fichier PDF ici
+      // url: "/src/assets/cv/LALANDE_Mathieu_CV.pdf",  //mettez l'URL de votre fichier PDF ici
     },
   ];
   
