@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
 import { styles } from "../styles";
-import { navLinks } from "../constants";
+import { navLinks, navLinkResume } from "../constants";
 import { logo, menu, close } from "../assets";
 
 const Navbar = () => {
@@ -58,17 +58,21 @@ const Navbar = () => {
               } hover:text-white text-[18px] font-medium cursor-pointer`}
               onClick={() => setActive(nav.title)}
             >
-              {nav.url ? (
-                <a href={`#${nav.id}`}>{nav.title}</a>
-              ) : (
-                <a href='https://mathieulalande.netlify.app/src/assets/cv/LALANDE_Mathieu_CV.pdf' target="_blank" rel="noopener noreferrer">
-                  {nav.title}
-                </a>
-              )}
+              <a href={`#${nav.id}`}>{nav.title}</a>
+            </li>
+          ))}
+          {navLinkResume.map((nav) => (
+            <li
+              key={nav.id}
+              className={`${
+                active === nav.title ? "text-white" : "text-secondary"
+              } hover:text-white text-[18px] font-medium cursor-pointer`}
+              onClick={() => setActive(nav.title)}
+            >
+              <a href={nav.link} download={nav.link}>{nav.title}</a>
             </li>
           ))}
         </ul>
-
         <div className='sm:hidden flex flex-1 justify-end items-center'>
           <img
             src={toggle ? close : menu}
@@ -76,31 +80,32 @@ const Navbar = () => {
             className='w-[28px] h-[28px] object-contain'
             onClick={() => setToggle(!toggle)}
           />
-
           <div
             className={`${
               toggle ? "flex" : "hidden"
             } flex-col absolute top-0 right-0 w-full h-screen bg-primary z-10`}
           >
-            <ul className='list-none flex flex-col gap-10 items-center justify-center h-full'>
+            <ul className='list-none hidden sm:flex flex-row gap-10'>
               {navLinks.map((nav) => (
                 <li
-                  key={nav.id}  
+                  key={nav.id}
                   className={`${
                     active === nav.title ? "text-white" : "text-secondary"
                   } hover:text-white text-[18px] font-medium cursor-pointer`}
-                  onClick={() => {
-                    setActive(nav.title);
-                    setToggle(false);
-                  }}
+                  onClick={() => setActive(nav.title)}
                 >
-                  {nav.url ? (
-                    <a href={`#${nav.id}`}>{nav.title}</a>
-                  ) : (
-                    <a href='https://mathieulalande.netlify.app/src/assets/cv/LALANDE_Mathieu_CV.pdf' target="_blank" rel="noopener noreferrer">
-                      {nav.title}
-                    </a>
-                  )}
+                  <a href={`#${nav.id}`}>{nav.title}</a>
+                </li>
+              ))}
+              {navLinkResume.map((nav) => (
+                <li
+                  key={nav.id}
+                  className={`${
+                    active === nav.title ? "text-white" : "text-secondary"
+                  } hover:text-white text-[18px] font-medium cursor-pointer`}
+                  onClick={() => setActive(nav.title)}
+                >
+                  <a href={nav.link} download={nav.link}>{nav.title}</a>
                 </li>
               ))}
             </ul>

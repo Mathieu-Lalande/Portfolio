@@ -19,7 +19,7 @@ import {
     refactor,
     bhb18,
     giroscoutellier,
-    LALANDE_Mathieu_CV,
+    CV,
     todolist,
     ouidou_webpage,
     portfolio,
@@ -32,23 +32,25 @@ import {
     {
       id: "about",
       title: "About",
-      url: "/#about",
     },
     {
       id: "work",
       title: "Work",
-      url: "/#work",
     },
     {
       id: "contact",
       title: "Contact",
-      url: "/#contact",
     },
+  ];
+
+    
+  export const navLinkResume = [
     {
       id: "resume",
       title: "Resume",
-      // url: "/src/assets/cv/LALANDE_Mathieu_CV.pdf",  //mettez l'URL de votre fichier PDF ici
+      link: CV,
     },
+ 
   ];
   
   
