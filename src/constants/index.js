@@ -175,6 +175,8 @@ import {
       points: [
         "Creation of a ToDoList web application in React.js for training.",
         "Complete handling of Git, with repository put on github and uploading of the ToDoList web application.",
+        "Creation of a login/registration page in react in localStorage.",
+        "Creation of a custom t-shirt web application in React.js for training.",
       ],
     },
   ];

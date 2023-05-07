@@ -126,6 +126,33 @@
   transform: translateZ(0);
 }
 
+/* scrollbar style */
+
+::-webkit-scrollbar {
+  width: 10px; 
+}
+
+::-webkit-scrollbar-track {
+  background: #050816;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1d1836; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+::-webkit-scrollbar-thumb:vertical {
+  height: 30px;
+}
+
+::-webkit-scrollbar-thumb:horizontal {
+  width: 30px;
+}
+
+
 @keyframes mulShdSpin {
   0%,
   100% {
