@@ -24,6 +24,7 @@ import {
     ouidou_webpage,
     portfolio,
     customtshirt,
+    dashboard,
     threejs,
     github,
   } from "../assets";
@@ -292,6 +293,27 @@ import {
       ],
       image: customtshirt,
       source_code_link: "https://github.com/Thimanrgy/CustomT-shirt",
+    },
+    {
+      name: "Dashboard",
+      description:
+        "A dashboard for a company with powerful tools to use. There is Kanban, a Calendar, a Color Picker ansd a lot of other features. There is also a dark mode.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "entreprise",
+          color: "green-text-gradient",
+        },
+        {
+          name: "tailwind",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: dashboard,
+      source_code_link: "https://github.com/Thimanrgy/dashboard",
     },
   ];
 

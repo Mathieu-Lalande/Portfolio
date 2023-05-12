@@ -32,6 +32,7 @@ import todolist from "./todolist.png";
 import ouidou_webpage from "./ouidou_webpage.png";
 import portfolio from "./portfolio.png";
 import customtshirt from "./customtshirt.png";
+import dashboard from "./dashboard.png";
 
 
 export {
@@ -65,4 +66,5 @@ export {
   ouidou_webpage,
   portfolio,
   customtshirt,
+  dashboard,
 };
