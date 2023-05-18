@@ -25,7 +25,9 @@ import {
     portfolio,
     customtshirt,
     dashboard,
+    appmeteo,
     threejs,
+    deployed,
     github,
   } from "../assets";
   
@@ -229,6 +231,7 @@ import {
         },
       ],
       image: portfolio,
+      source_deploy: "https://mathieulalande.netlify.app/",
       source_code_link: "https://github.com/Thimanrgy/Portfolio",
     },
     {
@@ -250,6 +253,7 @@ import {
         },
       ],
       image: todolist,
+      source_deploy: "https://mathieu-todolist.netlify.app/",
       source_code_link: "https://github.com/Thimanrgy/ToDo-List",
     },
     {
@@ -271,6 +275,7 @@ import {
         },
       ],
       image: ouidou_webpage,
+      source_deploy: "https://ouidou.fr/",
       source_code_link: "https://ouidou.fr/",
     },
     {
@@ -292,6 +297,7 @@ import {
         },
       ],
       image: customtshirt,
+      source_deploy: "https://custom-t-shirt.netlify.app/",
       source_code_link: "https://github.com/Thimanrgy/CustomT-shirt",
     },
     {
@@ -313,7 +319,30 @@ import {
         },
       ],
       image: dashboard,
+      source_deploy: "https://mathieu-dashboard.netlify.app/",
       source_code_link: "https://github.com/Thimanrgy/dashboard",
+    },
+    {
+      name: "App Meteo",
+      description:
+        "Discover our weather application containing all the information in real time. Stay ahead of the weather with our comprehensive, user-friendly interface.",
+      tags: [
+        {
+          name: "CSS",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "RequistAPI",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Javascript",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: appmeteo,
+      source_deploy: "https://app-meteo-math.netlify.app/#/current-location",
+      source_code_link: "https://github.com/Thimanrgy/App-meteo",
     },
   ];
 

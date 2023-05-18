@@ -4,6 +4,7 @@ import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
 import github from "./github.png";
+import deployed from "./deployed.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
@@ -33,6 +34,7 @@ import ouidou_webpage from "./ouidou_webpage.png";
 import portfolio from "./portfolio.png";
 import customtshirt from "./customtshirt.png";
 import dashboard from "./dashboard.png";
+import appmeteo from "./appmeteo.png";
 
 
 export {
@@ -42,6 +44,7 @@ export {
   mobile,
   web,
   github,
+  deployed,
   menu,
   close,
   css,
@@ -67,4 +70,5 @@ export {
   portfolio,
   customtshirt,
   dashboard,
+  appmeteo,
 };
