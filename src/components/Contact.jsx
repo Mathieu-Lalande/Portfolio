@@ -52,6 +52,7 @@ const Contact = () => {
 
     emailjs
       .send(
+      //emailjs : your service & template ID
         'service_6k2jjjm',
         'template_1wl1lbn',
         {
@@ -61,6 +62,7 @@ const Contact = () => {
           to_email: "mathieu.lalandee@gmail.com",
           message: form.message,
         },
+      //emailjs : your ID
         '-td9cPy0GEHn7vyjQ'
       ) 
       .then(
