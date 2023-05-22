@@ -332,7 +332,7 @@ import {
           color: "blue-text-gradient",
         },
         {
-          name: "request API",
+          name: "API request",
           color: "green-text-gradient",
         },
         {
