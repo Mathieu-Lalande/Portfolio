@@ -328,15 +328,15 @@ import {
         "Discover our weather application containing all the information in real time. Stay ahead of the weather with our comprehensive, user-friendly interface.",
       tags: [
         {
-          name: "CSS",
+          name: "javascript",
           color: "blue-text-gradient",
         },
         {
-          name: "RequistAPI",
+          name: "request API",
           color: "green-text-gradient",
         },
         {
-          name: "Javascript",
+          name: "css",
           color: "pink-text-gradient",
         },
       ],
