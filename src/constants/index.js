@@ -158,10 +158,10 @@ import {
       ],
     },
     {
-      title: "Frontend Developer",
+      title: "Frontend Developer Intern",
       company_name: "Ouidou, Paris, France",
       icon: ouidou,
-      iconBg: "#383E56",
+      iconBg: "#2962ff",
       date: "June 2022 - Oct 2022",
       points: [
         "Redesign of the Ouidou website with Wordpress and custom code.",
@@ -180,6 +180,18 @@ import {
         "Complete handling of Git, with repository put on github and uploading of the ToDoList web application.",
         "Creation of a login/registration page in react in localStorage.",
         "Creation of a custom t-shirt web application in React.js for training.",
+      ],
+    },
+    {
+      title: "Frontend Developer & Integrator Alternately",
+      company_name: "Ouidou, Paris, France",
+      icon: ouidou,
+      iconBg: "#2962ff",
+      date: "July 2023 - Oct 2024",
+      points: [
+        "Frontend collaboration on 5 sites under development using Angular, Java & React.",
+        "Redesign of the Ouidou website with Wordpress and custom code.",
+        "Registration part with requests for a new client site.",
       ],
     },
   ];
