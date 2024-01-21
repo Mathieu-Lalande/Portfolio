@@ -35,6 +35,7 @@ import portfolio from "./portfolio.png";
 import customtshirt from "./customtshirt.png";
 import dashboard from "./dashboard.png";
 import appmeteo from "./appmeteo.png";
+import portfolio3d from "./portfolio3d.png";
 
 
 export {
@@ -71,4 +72,5 @@ export {
   customtshirt,
   dashboard,
   appmeteo,
+  portfolio3d,
 };

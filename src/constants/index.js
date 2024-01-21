@@ -23,6 +23,7 @@ import {
     todolist,
     ouidou_webpage,
     portfolio,
+    portfolio3d,
     customtshirt,
     dashboard,
     appmeteo,
@@ -247,6 +248,28 @@ import {
       source_code_link: "https://github.com/Thimanrgy/Portfolio",
     },
     {
+      name: "My Second Portfolio",
+      description:
+      "This is my second personal portfolio site because I really like to show what I'm passionate about in different ways. I used React.js, Three.js & Tailwind CSS.",      
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "three.js",
+          color: "green-text-gradient",
+        },
+        {
+          name: "tailwind",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: portfolio3d,
+      source_deploy: "https://mathieulalandeportfolio.netlify.app/",
+      source_code_link: "https://github.com/Mathieu-Lalande/Portfolio3D",
+    },
+    {
       name: "ToDo List",
       description:
         "Web application that allows users to create, edit, and delete tasks, and provides a convenient and efficient solution for managing tasks.",
@@ -267,28 +290,6 @@ import {
       image: todolist,
       source_deploy: "https://mathieu-todolist.netlify.app/",
       source_code_link: "https://github.com/Thimanrgy/ToDo-List",
-    },
-    {
-      name: "Ouidou",
-      description:
-        "Redesign of the Ouidou website, an information technology consulting company (ESN in French) based in Paris with 5 agencies in France.",
-      tags: [
-        {
-          name: "wordpress",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "mySQL",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: ouidou_webpage,
-      source_deploy: "https://ouidou.fr/",
-      source_code_link: "https://ouidou.fr/",
     },
     {
       name: "3D T-shirt Customization",
